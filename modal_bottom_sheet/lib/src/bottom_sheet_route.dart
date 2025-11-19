@@ -37,6 +37,7 @@ class _ModalBottomSheetState<T> extends State<_ModalBottomSheet<T>> {
       case TargetPlatform.iOS:
       case TargetPlatform.linux:
       case TargetPlatform.macOS:
+      case TargetPlatform.ohos:
       case TargetPlatform.windows:
         return '';
       case TargetPlatform.android:
